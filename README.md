@@ -12,14 +12,14 @@
 
 ### INSTALL SCRIPT 
 ```
-apt install jq -y && apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/premi.sh && chmod +x premi.sh && ./premi.sh
+apt install jq -y && apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/virasinah/vip/main/premi.sh && chmod +x premi.sh && ./premi.sh
 
 ```
 
 ### PERINTAH UPDATE
 ```
 
-wget https://raw.githubusercontent.com/p3yx/script-vip/master/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/virasinah/vip/main/update.sh && chmod +x update.sh && ./update.sh
 
 ```
 
