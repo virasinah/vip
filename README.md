@@ -66,7 +66,6 @@ wget https://raw.githubusercontent.com/virasinah/vip/main/update.sh && chmod +x 
 - UNDER ATTACK MODE : OFF
 ```
 
-
 <p align="center">
 <a href="#"><img title="ABOUT-ME" src="https://img.shields.io/badge/ABOUT ME-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
