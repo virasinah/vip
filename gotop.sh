@@ -14,6 +14,6 @@ sed -i '$ i\/swapfile      swap swap   defaults    0 0' /etc/fstab
 chronyd -q 'server 0.id.pool.ntp.org iburst'
 chronyc sourcestats -v
 chronyc tracking -v
-wget https://raw.githubusercontent.com/p3yx/script-vip/master/limit/bbr.sh &&  chmod +x bbr.sh && ./bbr.sh
+wget https://raw.githubusercontent.com/virasinah/vip/main/limit/bbr.sh &&  chmod +x bbr.sh && ./bbr.sh
 print_success "Swap 1 G"
 }
