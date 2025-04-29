@@ -59,7 +59,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 git clone https://github.com/vip23-px/bot.git Nebot
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/master/limit/botwa.zip
+wget -q https://raw.githubusercontent.com/virasinah/vip/main/limit/botwa.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 unzip botwa.zip
 chmod +x botwa/*
@@ -73,10 +73,10 @@ cat >/usr/local/bin/setupbot <<-END
 clear
 rm -r /root/setup.sh* > /dev/null
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e " Welcome To PeyXBOT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e " Welcome To VBOT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup Bot WhatsApp On Your Server"
-echo -e " Author : ${green}Ferdiansyah © ${NC}${YELLOW}(${NC}${green} Peyx Vpn ${NC}${YELLOW})${NC}"
-echo -e " © Recode By Ferdiansyah ®${YELLOW}(${NC} 2025 ${YELLOW})${NC}"
+echo -e " Author : ${green}Vallstore © ${NC}${YELLOW}(${NC}${green} V Vpn ${NC}${YELLOW})${NC}"
+echo -e " © Recode By Vallstore ®${YELLOW}(${NC} 2025 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -148,7 +148,7 @@ cd || exit
 5)
 echo "Mengupdate Menu Bot..."
 rm -r botwa* &> /dev/null
-wget -q https://raw.githubusercontent.com/p3yx/script-vip/main/limit/botwa.zip &> /dev/null
+wget -q https://raw.githubusercontent.com/virasinah/vip/main/limit/botwa.zip &> /dev/null
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" &> /dev/null \
 && chmod +x /usr/bin/enc &> /dev/null
 unzip botwa.zip &> /dev/null
